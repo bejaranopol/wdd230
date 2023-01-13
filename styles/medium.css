@@ -1,6 +1,6 @@
 @media only screen and (max-width: 32.5em) {
 body{margin: 1% 0% 0% 0%;}
-
+/* JUST A  COMMENT: SMARTPHONE DIVICES GENERAL DIMENSION 400 x 580 */
     header h2{ font-size: 0.9rem; margin: 4.5% auto; }
     .my_name{
         background-color: brown;
@@ -28,6 +28,6 @@ body{margin: 1% 0% 0% 0%;}
             margin: auto;
             font-size: 0.9rem;
         }
-    
+    .w01_activity{font-size: 0.8rem; margin: 0 auto; width: 80%;}
 
   }
