@@ -1,0 +1,34 @@
+#content{  max-width: 1600px; margin: 0 auto; text-align: center;}
+
+.my_name{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(50, 117, 168);
+    padding: 10px;
+    width: 50%;
+    margin:auto;
+}
+.my_name img{ width: 27%; margin: auto;}
+
+.my_name p{ 
+    font-size: 200%;
+    color: white;
+    margin: auto;
+}
+
+header h2{margin-right: 55%; }
+.description1{ width: 50%; display: block; margin: auto;}
+
+#f_information{
+    background-color: rgb(50, 117, 168);
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: 80px;
+    padding: 5px;
+    margin: auto;
+}
+
+.list{ width:60%;}
+
+footer i{ margin-right: 16%;}

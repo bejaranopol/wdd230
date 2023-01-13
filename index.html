@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
     <header>
-        <div id="my_name">
+        <div class="my_name">
             <img src="images/perfil.png" alt="my photo">
             <p> Paul Andre A. Bejarano </p>
         </div>
 
-        <h2> WDD 230: Assigment Portal</h2>
-
+        <div class="description1"> 
+        <h2>WDD 230: Assigment Portal</h2>
+        <p>Portal Home for Paul Arcos in WDD 230: Web Frontend Development I at Brigham Young University – Idaho Online. 
+            Here you will find my projects and assignments published on GitHub </p>
+        </div>
+        <hr style="width:50.5%">
+       
     </header>
 
-    <hr style="width:20%;text-align:left;margin-left:0">
+    
     <main>
+ 
         <menu class="list">  
             <li> Lesson 02: <a href="">Title</a></li>
             <li> Lesson 03: <a href="">Title</a></li>  
@@ -34,27 +40,23 @@
             <li> Lesson 11: <a href="">Title</a></li>  
          
          </menu>
-
+         <hr style="width:50.5%">
     </main>
-    <hr style="width:20%;text-align:left;margin-left:0">
+
     <footer>
         <p><i> Some lessons may need more than one activity/assignment link </i></p> <br>
 
-        <div id="information">
-            <p>© 2023 | Paul Andre A. Bejarano | Peru Time GMT-5</p>  
+        <div id="f_information">
+            <p>© <span id="c_year"></span> | Paul Andre A. Bejarano | Peru Time GMT-5</p>  
             Last updated: <span id="last_modified"></span>
 
         </div>
-
     </footer>
     <br>
     W01 Activity Applied JavaScript - Step 2 ( mon, dd, year): &nbsp;  &nbsp;
     <a href="https://codepen.io/polbejarn/pen/WNKoEZq" target="_blank">Code Pen W01</a>
 
-    <script>
-        let text = document.lastModified;       
-        document.getElementById('last_modified').innerHTML = text;
-    </script>
+   <script src="scripts/modif_date.js"></script>
 
 
 
