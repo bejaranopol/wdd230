@@ -1,0 +1,15 @@
+@media only screen and (max-width: 32.5em) {
+#content{ font-size: 0.5rem;}
+    .my_name{
+        background-color: brown;
+        display: block;
+
+        width: 50%;
+
+    }
+
+
+
+
+
+  }
