@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Fuzzy+Bubbles&family=Kaushan+Script&family=M+PLUS+Rounded+1c:wght@100&family=Varela+Round&display=swap');
+#content{  max-width: 1600px; 
+            margin: 0 auto; 
+            text-align: center;
+            font-family:  'Varela Round',Helvetica, sans-serif ;}
+
+.my_name{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(50, 117, 168);
+    padding: 10px;
+    width: 50%;
+    margin:auto;
+}
+.my_name img{ width: 27%; margin: auto;}
+
+.my_name h1{ 
+    font-size: 210%;
+    color: white;
+    margin: auto;
+}
+
+header h2{margin-right: 50%; }
+.description1{ width: 50%; display: block; margin: auto; line-height: 1.2em;}
+
+#f_information{
+    background-color: rgb(50, 117, 168);
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: 80px;
+    padding: 5px;
+    margin: auto;
+}
+
+.list{ width:60%;}
+
+footer i{ margin-right: 16%;}

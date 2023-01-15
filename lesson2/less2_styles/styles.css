@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Varela Round', Tahoma, Verdana;
+}
+
+header
+    {background-color: brown;
+     color: white;
+     text-align: center;
+    margin: auto;
+     width: 100%;
+    display: inline-block ; 
+}
+header h1{margin: 0% auto; padding-top: 1%;}
+
+.d_principles h3{ 
+    background-color: rgba(165, 42, 42, 0.85); 
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    border-top-left-radius: 1.0rem; border-top-right-radius: 1.0rem;
+    }
+.repetition, .rule_thirds, .contrast{
+         border: solid rgba(170, 170, 170, 1);
+        border-radius: 1.1rem; 
+        }
+
+.d_principles .repetition , .rule_thirds, .contrast{
+     background-color: rgba(170, 170, 170, 0.3); }
+
+.d_principles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.d_principles img{
+    width: 90%;
+    border: solid rgba(170, 170, 170, 1);
+    display: block; 
+    margin: 5% auto auto auto ;
+
+}
+.d_principles p, a {padding: 1.5%; font-size: 1rem;}
+.dsc{padding: 5%;}
+
+footer{
+    background-color: brown;
+        color: white;
+        text-align: center;
+        margin-top: 5%;
+        display: block;
+       font-size: 1rem;
+
+}
+
