@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Kiwi+Maru&family=Open+Sans&display=swap');
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Varela Round', Tahoma, Verdana;
+}
+
+header
+    {width: 100%;
+    background-color: brown;
+    color: white;
+    display: flex;
+ 	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*   CODE PEN I*/
+nav {
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(242,159,5,0.8);
+	text-align: center;
+	
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 35px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+nav a:hover {
+	background-color: rgba(66,24,0,0.9);
+	color:rgba(242,142,2,1);
+}
+/*   CODE PEN F*/
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    display: block;
+   font-size: 1.2rem;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+/*DESIGN PAGE  START*/
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+
+.primary{background-color: #A52A2A;  color: white;}
+.secondary{background-color: #532605; color: white;}
+.auxiliar1{background-color: #F4B237;}
+.auxiliar2{background-color: #F28E02;}
+.p_font{font-family: 'Cinzel', Tahoma, Verdana;}
+.colored{font-family: 'Cinzel', Tahoma, Verdana; background-color: #A52A2A; color: white;}
+
+/* DESIGN PAGE END*/
+
+
+  .personas{
+      display: grid;
+      grid-template-columns: 1fr, 2fr ,2fr;
+      grid-template-rows:  0.8fr 2fr 0.8fr 0.8fr 0.8fr;
+      
+  }
+  /*.personas .p_descrip{     grid-column: 1/2;   padding: 10px; }
+  .personas .p1{    grid-column: 2/3;  margin: auto; padding: 10px;}
+  .personas .p2{      grid-column: 3/4;   margin: auto; padding: 10px; }*/
+  .personas img {width: 45%; margin-left: 18%;}
+
+  .para_1{
+      grid-row: 1/2; padding: 8px; margin: 0; border: solid rgba(244,244,244,1);
+  }
+  .p_img{
+    grid-row: 2/3; padding: 8px; margin: 0; border: solid rgba(244,244,244,1); 
+    
+}
+.para_2{
+    grid-row: 3/4; padding: 8px; margin: 0; border: solid rgba(244,244,244,1);
+}
+.para_3{
+    grid-row: 4/5; padding: 8px; margin: 0; border: solid rgba(244,244,244,1);
+}
+.para_4{
+    grid-row: 5/6; padding: 8px; margin: 0; border: solid rgba(244,244,244,1);
+}
+.personas h4{background-color: aquamarine;}
+.personas h5{ font-size: 110%; background-color: aquamarine; padding-top: 85px;}
+
+
+
+/* code pen @media */
+@media (max-width: 37.5em) {
+	nav {
+		flex-direction: column;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+
+    .personas{
+        display: grid;
+        grid-template-columns: 1fr, 1fr ,1fr;
+        grid-template-rows:  0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        font-size: 0.5rem;
+    }
+    .personas img {width: 320px;}
+    .para_1 {height: auto; font-size: 0.8rem; padding: 1%; margin: 0;}
+    .para_img {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .para_2 {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .para_3 {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .para_4 {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .personas h5{ font-size: 0.8rem; background-color: aquamarine; padding:10% 0 0 0;}
+
+
+}
+
+@media (max-width: 48em) {
+    nav {
+		flex-direction: column;
+	}
+	nav a {
+		font-size: 1.3rem;
+	}
+    .personas{
+        display: grid;
+        grid-template-columns: 1fr, 2fr ,2fr;
+        grid-template-rows:  0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        
+    }
+    .personas img {width: 45px;}
+    .para_1 {height: auto; font-size: 0.8rem; padding: 1%; margin: 0;}
+    .para_img {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .para_2 {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .para_3 {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .para_4 {height: auto; font-size: 0.8rem;padding: 1%; margin: 0;}
+    .personas h5{ font-size: 0.8rem; background-color: aquamarine; padding: 30% 0 0 0;}
+ 
+}
