@@ -36,3 +36,37 @@ header h2{margin-right: 50%; }
 .list{ width:60%;}
 
 footer i{ margin-right: 16%;}
+
+@media only screen and (max-width: 32.5em) {
+         body{margin: 1% 0% 0% 0%;}
+        /* JUST A  COMMENT: SMARTPHONE DIVICES GENERAL DIMENSION 400 x 580 */
+        header h2{ font-size: 0.9rem; margin: 4.5% auto; }
+        .my_name{
+            background-color: brown;
+            display: block;
+            width: 100%;
+            padding: 5px;
+        }
+        .my_name h1 {padding: 2%; font-size: 1rem;}
+        .my_name img{width: 35%;padding: 1%; border-radius: 9%;}
+    
+        .description1{ 
+            width: 100%; 
+            display: block;
+            margin: auto; 
+            line-height: auto;
+            font-size: 1rem;
+            }
+    
+            #date_modf{
+                background-color: brown;
+                text-align: center;
+                color: white;
+                width: auto;
+                padding: 5px;
+                margin: auto;
+                font-size: 0.9rem;
+            }
+        .w01_activity{font-size: 0.8rem; margin: 0 auto; width: 80%;}
+    
+    }
