@@ -84,7 +84,7 @@ main{
 
   .personas{
       display: grid;
-      grid-template-columns: 1fr, 2fr ,2fr;
+      grid-template-columns: 1fr 2fr 2fr;
       grid-template-rows:  0.8fr 2fr 0.8fr 0.8fr 0.8fr;
       
   }
@@ -126,7 +126,7 @@ main{
 
     .personas{
         display: grid;
-        grid-template-columns: 1fr, 1fr ,1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows:  0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
         font-size: 0.5rem;
     }
@@ -150,7 +150,7 @@ main{
 	}
     .personas{
         display: grid;
-        grid-template-columns: 1fr, 2fr ,2fr;
+        grid-template-columns: 1fr 2fr 2fr;
         grid-template-rows:  0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
         
     }

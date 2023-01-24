@@ -23,7 +23,7 @@
 header h2{margin-right: 50%; }
 .description1{ width: 50%; display: block; margin: auto; line-height: 1.2em;}
 
-#f_information{
+#date_modf{
     background-color: rgb(50, 117, 168);
     text-align: center;
     color: white;
@@ -35,11 +35,11 @@ header h2{margin-right: 50%; }
 
 .list{ width:60%;}
 
-footer i{ margin-right: 16%;}
+footer i{ margin-right: 16%; display: block;}
 
 @media only screen and (max-width: 32.5em) {
          body{margin: 1% 0% 0% 0%;}
-        /* JUST A  COMMENT: SMARTPHONE DIVICES GENERAL DIMENSION 400 x 580 */
+/* JUST A  COMMENT: SMARTPHONE DIVICES GENERAL DIMENSION 400 x 580 */
         header h2{ font-size: 0.9rem; margin: 4.5% auto; }
         .my_name{
             background-color: brown;
@@ -66,6 +66,7 @@ footer i{ margin-right: 16%;}
                 padding: 5px;
                 margin: auto;
                 font-size: 0.9rem;
+               
             }
         .w01_activity{font-size: 0.8rem; margin: 0 auto; width: 80%;}
     
