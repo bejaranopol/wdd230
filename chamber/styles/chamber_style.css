@@ -90,7 +90,7 @@ header {
        /* background-color: green;*/
         display: block;  }     
     header #logo_taita { color: white; font-size: 0.9rem; margin-left: 2%;}
-    .name_logo{ color: white; font-size: 0.9rem; }
+    .name_logo{ color: white; font-size: 120%; margin-left: 2%; }
     #logo_taita {display: flex; align-items: center;}
 
     #logo_taita img {width: 5rem; padding: 0.4rem; }
