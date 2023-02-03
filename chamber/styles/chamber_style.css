@@ -20,6 +20,7 @@ header {
          }  
 
     header img {width: 6rem; padding: 2px;}
+ 
     
 
 
@@ -88,11 +89,8 @@ header {
     header{
        /* background-color: green;*/
         display: block;  }     
-    header #logo_taita .name_logo{ 
-        color: white; 
-        font-size: 0.9rem;
-        margin-left: 2%;}
-
+    header #logo_taita { color: white; font-size: 0.9rem; margin-left: 2%;}
+    .name_logo{ color: white; font-size: 0.9rem; }
     #logo_taita {display: flex; align-items: center;}
 
     #logo_taita img {width: 5rem; padding: 0.4rem; }
