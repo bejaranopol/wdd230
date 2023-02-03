@@ -62,7 +62,7 @@ header {
 /*LARGE SIZE*/  @media (min-width: 60.1em){
         header {display: grid; align-items: center;}
         .navigation_page{ display: flex;}
-        .name_logo {display: none;}
+        .name_logo {display: none; color: white;}
         #logo_taita img {padding-top: 10%; }
 
     footer { display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 2%; align-items: center; }
