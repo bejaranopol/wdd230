@@ -154,7 +154,8 @@ img {vertical-align: middle;}
         .food_menu p{ padding: 3%; width: 95%; font-size: 150%;}
 
 .trad_food { display: block; background-color: rgba(165,42,42,1); color: white; text-align: center;}
-.trad_food img {width: 80%; padding: 10px;}
+.trad_food img {width: 80%; padding: 10px; margin-bottom: 3%;}
+
 .about_us { display: block; background-color: rgba(165,42,42,1); color: white; text-align: center;}
 .about_us img {width: 30%; padding: 10px;}
 
