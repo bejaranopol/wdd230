@@ -137,15 +137,29 @@ img {vertical-align: middle;}
 /*   ***********************  END SLIDESSHOW GALLERY  **************************        */
 
 
+.welcome {background-color: rgba(165,42,42,1); 
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+               
+.welc_1{position: relative;  }
+.welc_1 img { width: 95%; border-radius: 23px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
-.welc_1{position: relative; }
-.welc_1 img {width: 100%;}
+
 .welc_1 h2 { position: absolute; color: white; background-color: rgba(165,42,42,1);
-        top: 8px; border-radius: 15px;
-        left: 16px; padding: 5px; font-size: 1.3rem;}
-.welc_butt { position: absolute;  bottom: 8px; right: 16px; border-radius: 20px;
+        top: 2%; border-radius: 15px;
+        left: 6%; padding: 5px; font-size: 1.2rem;}
+.welc_butt { position: absolute;  bottom: 2%; right: 6%; border-radius: 20px;
      background-color: rgba(165,42,42,0.9); color: white; font-size: 150%;
-    border: solid rgba(165,42,42,0.9); font-size: 1.2rem;}
+    border: solid rgba(165,42,42,0.9); font-size: 1.2rem; text-decoration:underline;
+    transition: 0.5s;}
+
+.welc_butt:hover{ background-color:#F4B237; color: #A52A2A;
+         font-size: 1.3rem;  }    
+
 .food_menu {display: grid; grid-template-columns: 1fr 1fr ;
              background-color: rgba(165,42,42,1); place-items: center ;
             color: white;}
@@ -166,7 +180,7 @@ img {vertical-align: middle;}
 
 
 
-
+/****//*****/
 
 
 
