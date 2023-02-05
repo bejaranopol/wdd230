@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Kiwi+Maru&family=Open+Sans&display=swap');
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: 'Cinzel', Tahoma, Verdana;
-    
-    }
+#content{font-family: 'Cinzel', Tahoma, Verdana; }
  
     /*   HEADER  START */
 header { 
@@ -196,6 +191,7 @@ img {vertical-align: middle;}
 
 
 /*LARGE SIZE*/  @media (min-width: 60.1em){
+    #content{  max-width: 1600px; margin: 0 auto;}
         header {display: grid; align-items: center;}
         .navigation_page{ display: flex;}
         .name_logo {display: none; color: white;}
@@ -311,6 +307,8 @@ img {vertical-align: middle;}
         grid-gap: 5px;}
     /*.principal_grid div {border: solid 5px rgb(230,230,230);}*/
         .welcome{grid-column: 1/2; grid-row: 1/2;}
+        .welc_1 h2 {font-size: 92%;}
+        .welc_butt {font-size: 88%;}
         .img_transitions{grid-column: 1/2; grid-row: 2/3;}
         .food_menu{grid-column: 1/2; grid-row: 3/4;}
         .trad_food{grid-column: 1/2; grid-row: 4/5;}
