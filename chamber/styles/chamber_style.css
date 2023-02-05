@@ -16,9 +16,6 @@ header {
 
     header img {width: 6rem; padding: 2px;}
  
-    
-
-
 
 .navigation_page li {
     display: block; 
@@ -50,31 +47,6 @@ header {
 
     footer img{ width:  4rem;}
     footer a{text-decoration: none; color: white;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*   ***********************  START SLIDESSHOW GALLERY  **************************        */
 .mySlides {display: none}
@@ -167,29 +139,6 @@ img {vertical-align: middle;}
 
 /****//*****/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
 /*LARGE SIZE*/  @media (min-width: 60.1em){
     #content{  max-width: 1600px; margin: 0 auto;}
         header {display: grid; align-items: center;}
@@ -226,8 +175,11 @@ img {vertical-align: middle;}
 
     .slideshow-container {width: 45rem; position: relative; margin: auto; }
 
-
     }/* End of Large Size*/
+
+
+/****//*****/
+
 
 /*MEDIUM SIZE*/  @media (max-width: 60em){
     header{
@@ -294,7 +246,7 @@ img {vertical-align: middle;}
 
     }/*End of Medium Size*/
 
-
+/****//*****/
 
 
 /*SMALL SIZE*/@media (max-width: 34.5em){
