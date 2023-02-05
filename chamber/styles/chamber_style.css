@@ -147,17 +147,20 @@ img {vertical-align: middle;}
      background-color: rgba(165,42,42,0.9); color: white; font-size: 150%;
     border: solid rgba(165,42,42,0.9); font-size: 1.2rem;}
 .food_menu {display: grid; grid-template-columns: 1fr 1fr ;
-             background-color: rgba(165,42,42,0.9); place-items: center ;
+             background-color: rgba(165,42,42,1); place-items: center ;
             color: white;}
         .food_menu a{ color: white;}
         .food_menu img{ width: 80%;   padding: 3%;}
         .food_menu p{ padding: 3%; width: 95%; font-size: 150%;}
 
 .trad_food { display: block; background-color: rgba(165,42,42,1); color: white; text-align: center;}
+.trad_food img {width: 80%; padding: 10px;}
 .about_us { display: block; background-color: rgba(165,42,42,1); color: white; text-align: center;}
+.about_us img {width: 30%; padding: 10px;}
 
 
-
+.promo_deli  { display: block; background-color: rgba(165,42,42,1); color: white; text-align: center;}
+.promo_deli img  {width: 80%;}
 
 
 
