@@ -133,7 +133,18 @@ img {vertical-align: middle;}
 .about_us { display: block; background-color: rgba(165,42,42,1); color: white; text-align: center;}
 .about_us img {width: 30%; padding: 10px;}
 
-
+/*display banner on Mondays o Tuesday*/
+#banner1, #banner2{ 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255,232,199,1);
+     padding: 6px; font-size: 0.9rem;}
+#banner1, #banner2 p{ color: rgb(32,46,68);}
+#banner1 button, #banner2  button{ border: none; background-color:rgba(255,232,199,1); font-size: 130%; }
+#banner1, #banner2 a {color:rgb(32,46,68); font-size: 100%; }
 
 
 
@@ -174,6 +185,7 @@ img {vertical-align: middle;}
     .icon{ width: 40px; border-radius: 8px;}
 
     .slideshow-container {width: 45rem; position: relative; margin: auto; }
+    #banner1, #banner2{margin: 0   25% ; width: 50%;}
 
     }/* End of Large Size*/
 
@@ -243,6 +255,7 @@ img {vertical-align: middle;}
         .icon{ width: 35px; border-radius: 8px;}
 
         .slideshow-container {width: 100%; position: relative; margin: auto; }
+        #banner1, #banner2{margin: 0 ; width: 100%;}
 
     }/*End of Medium Size*/
 
