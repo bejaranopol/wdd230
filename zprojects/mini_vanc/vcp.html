@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My mini vcp</title>
+    <link rel="stylesheet" href="vcp.css">
+  
+</head>
+<body>
+    <div id="content">
+    <div id="alert1">
+        <p>Estimados clientes, les informamos que debido a la coyuntura de nuestro país y por 
+            medidas de seguridad, algunas agencias BCP se encuentran cerradas. 
+            Revisa el listado completo <span><a href="">aquí</a></span></p>
+            <button onclick="function_delete()"><a href="">x</a> </button>   
+    </div>
+
+    <div class="vcp_nav1">
+        <nav>
+        <a href="">Personas</a>
+        <a href="">Pymes</a>
+        <a href="">Empresas</a>
+        <a href="">Español / Qechua</a>
+    </nav></div>
+
+    <div class="vcp_nav2">
+        <nav>
+            <a href=""><img src="" alt="logo"></a>
+            <a href="">Productos ᐯ</a>
+            <a href="">Canales de Atención ᐯ</a>
+            <a href="">Beneficios</a>
+            <a href="">Ayuda</a>
+            <a href="">Agencias</a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            
+        </nav>
+    </div>
+</div>
+
+<script>
+ function function_delete() {
+  const element = document.getElementById("alert1");
+  element.remove();
+}   
+</script>
+</body>
+</html>

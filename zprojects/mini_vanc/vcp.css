@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;1,300&display=swap');
+
+body {
+    margin: 0;
+  }
+#content{
+    margin: 0 ; padding: 0;
+    font-family: 'Exo';
+    
+
+}
+
+
+#alert1{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255,232,199,1);
+    margin: 0 ; padding: 16px; font-size: 0.9rem;}
+#alert1 p{ color: rgb(32,46,68);}
+#alert1 button{ border: none; background-color:rgba(255,232,199,1); font-size: 130%; }
+#alert1 a {color:rgb(32,46,68); font-size: 100%; }
+.vcp_nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #202E44; background-color: rgb(235,244,255);
+    padding: 8px;}
+    .vcp_nav1 a {padding: 35px;}
