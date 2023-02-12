@@ -148,6 +148,15 @@ img {vertical-align: middle;}
 
 
 
+/*  Wind Chill Styling*/
+.wind_chill{ color: white; background-color:rgba(165,42,42,1) ; padding: 10px; 
+        width: 50%; margin: 0 25%; border-radius: 15px;}
+.wind_chill button{text-decoration: underline; border-radius: 5px; border: none; transition: 0.6s;}
+.wind_chill button:hover { background-color:#F4B237; color: #A52A2A; transition: 0.6s; font-size: 108%;}
+ 
+
+
+
 /****//*****/
 
 /*LARGE SIZE*/  @media (min-width: 60.1em){

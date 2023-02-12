@@ -17,11 +17,11 @@
      
         <div id="banner2">
         <p>Welcome to Taita's Restaurant <br> Wait until Mondays or Tuesdays to see the banner
-             <br><i style="font-size: 85%; font-family: 'Arial';">see coments on java script file: banners.js</i>
+             <br>                                                       <i style="font-size: 85%; font-family: 'Arial';">see coments on java script file: banners.js</i>
         </p>
         <button  onclick="function_delete()">x</button>   
     </div>
-    
+
 
     <br>
     <header>
@@ -71,7 +71,17 @@
        
         <!-- Start Welcome--> <div class="welcome" >
             <div class="welc_1"> 
-                <img src="images/welcome_img.jpg" alt="welcome image">
+                <!-- INICIO -  BORRAR PICTURE DESPUES QUE CALIFIQUEN SEMANA W06-->
+                <picture>
+                    <source media="(min-width: 961.6px)" srcset="images/images_week06/wdd230-org_larg.webp" type="image/webp">
+                    <source media="(min-width: 552px)" srcset="images/images_week06/wdd230-org_med.webp" type="image/webp">
+                    <source media="(max-width: 551px)" srcset="images/images_week06/wdd230-org_small.webp" type="image/webp">
+                    <img src="images/images_week06/wdd230-org.jpg" alt="HERO IMAGE">
+                </picture>
+                <!-- FINAL -  BORRAR PICTURE DESPUES QUE CALIFIQUEN SEMANA W06-->
+
+                <!-- <img src="images/welcome_img.jpg" alt="welcome image"> ***************  CODIGO ORIGINAL
+                                 CAMBIAR CUANDO CALIFIQUEN ESTO WEEK06 -->
                 <h2>Welcome to Taita's Restaurant </h2>
                 <button class="welc_butt">Start here</button>
             </div>
@@ -119,6 +129,15 @@
 
         </div>
     </div>
+
+    <br>
+    <div class="wind_chill">
+        Temperature: &nbsp;<input type="text" id="temperature" size="5" ><br><br>
+        Wind Speed:  &nbsp;<input type="text" id="wind_speed" size="5" ><br><br>
+    <button type="button" onclick="doInputOutput()">Calculate</button> &nbsp;    
+    <span id="output"></span>
+    </div>
+
     </main>
 
 
@@ -136,12 +155,11 @@
         </div>
     </footer>
 
-
-
 </div>
 <script src="scripts/date_mod.js"></script>
 <script src="scripts/hamb.js"></script>
 <script src="scripts/slide.js"></script>
 <script src="scripts/banners.js"></script>
+<script src="scripts/windchill.js"></script>
 </body>
 </html>
