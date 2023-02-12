@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Kiwi+Maru&family=Open+Sans&display=swap');
-#content{font-family: 'Cinzel', Tahoma, Verdana; }
- 
+
+body{ margin: 0 3px;}
+#content{font-family: 'Cinzel', Tahoma, Verdana; padding: 0; margin: 0;}
+
     /*   HEADER  START */
 header { 
     background-color: #A52A2A ;
@@ -45,7 +47,7 @@ header {
         font-size: 0.8rem;
     }
 
-    footer img{ width:  4rem;}
+    footer img{ width:  4rem; padding: 8px;}
     footer a{text-decoration: none; color: white;}
 
 /*   ***********************  START SLIDESSHOW GALLERY  **************************        */
