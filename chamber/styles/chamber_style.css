@@ -32,6 +32,7 @@ header {
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem)}
 
+
 .navigation_page li:first-child {display: none;}
 
     /* HEADER END */
@@ -143,7 +144,7 @@ img {vertical-align: middle;}
     align-items: center;
     justify-content: space-around;
     background-color: rgba(255,232,199,1);
-     padding: 6px; font-size: 0.9rem;}
+     padding: 16px; font-size: 0.9rem;}
 #banner1, #banner2 p{ color: rgb(32,46,68);}
 #banner1 button, #banner2  button{ border: none; background-color:rgba(255,232,199,1); font-size: 130%; }
 #banner1, #banner2 a {color:rgb(32,46,68); font-size: 100%; }
@@ -165,6 +166,8 @@ img {vertical-align: middle;}
     #content{  max-width: 1600px; margin: 0 auto;}
         header {display: grid; align-items: center;}
         .navigation_page{ display: flex;}
+        .navigation_page a:hover, .navigation_page a:active {
+            color: #F28E02; background-color: #532605; }
         .name_logo {display: none; color: white;}
         #logo_taita img {padding-top: 10%; }
 
@@ -196,7 +199,7 @@ img {vertical-align: middle;}
     .icon{ width: 40px; border-radius: 8px;}
 
     .slideshow-container {width: 45rem; position: relative; margin: auto; }
-    #banner1, #banner2{margin: 0   25% ; width: 50%;}
+    #banner1, #banner2{margin: 1%   25% ; width: 50%;}
 
     }/* End of Large Size*/
 
@@ -230,7 +233,7 @@ img {vertical-align: middle;}
 
     #menu::before {content: "≡"; font-size: 2rem; }
     .navigation_page a:hover, .navigation_page a:active {
-            color: #F28E02; background-color: #532605;    }
+            color: #F28E02; background-color: #532605; }
     .responsive li { display: block; }    
     .responsive #menu::before {  content: "x";  }
 
