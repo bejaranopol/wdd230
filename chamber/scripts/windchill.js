@@ -5,7 +5,15 @@ function doInputOutput(){
     //rounding to 3 decimals:
     let digits = 3;
     let multiplier = Math.pow(10, digits); 
-    document.getElementById('output').innerHTML= "The wind chill is "+Math.round(wind_chill* multiplier) / multiplier+" °F";
+
+    if (speed>=3 && tempF<=50){
+    document.getElementById('output').innerHTML= "The wind chill is "+
+    Math.round(wind_chill* multiplier) / multiplier+" °F";
+                              }
+    else{
+        document.getElementById('output').innerHTML="*Not applicable, <br/> The wind chill calculator "+
+        "only works for temperatures at or below 50 ° F and wind speeds above 3 mph.";
+        }
 }
 
 function windChill(tempF, speed){
