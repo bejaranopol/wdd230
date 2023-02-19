@@ -22,8 +22,6 @@
         <button  onclick="function_delete()">x</button>   
     </div>-->
 
-
-
     <header>
         <a style="text-decoration: none;" id="logo_taita" href="index.html">
             <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
@@ -33,7 +31,8 @@
         <nav>
             <ul class="navigation_page">
                 <li><a id="menu" href="#"></a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Menus</a> </li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About us</a></li> 
@@ -71,17 +70,17 @@
        
         <!-- Start Welcome--> <div class="welcome" >
             <div class="welc_1"> 
-                <!-- INICIO -  BORRAR PICTURE DESPUES QUE CALIFIQUEN SEMANA W06-->
+                <!-- INICIO -  BORRAR PICTURE DESPUES QUE CALIFIQUEN SEMANA W06
                 <picture>
                     <source media="(min-width: 961.6px)" srcset="images/images_week06/wdd230-org_larg.webp" type="image/webp">
                     <source media="(min-width: 552px)" srcset="images/images_week06/wdd230-org_med.webp" type="image/webp">
                     <source media="(max-width: 551px)" srcset="images/images_week06/wdd230-org_small.webp" type="image/webp">
                     <img src="images/images_week06/wdd230-org.jpg" alt="HERO IMAGE">
                 </picture>
-                <!-- FINAL -  BORRAR PICTURE DESPUES QUE CALIFIQUEN SEMANA W06-->
+                 FINAL -  BORRAR PICTURE DESPUES QUE CALIFIQUEN SEMANA W06-->
+                <!-- *******   <picture> tag calificado, se procede a continuar con el codigo****  -->
 
-                <!-- <img src="images/welcome_img.jpg" alt="welcome image"> ***************  CODIGO ORIGINAL
-                                 CAMBIAR CUANDO CALIFIQUEN ESTO WEEK06 -->
+                 <img src="images/welcome_img.jpg" alt="welcome image">                                 
                 <h2>Welcome to Taita's Restaurant </h2>
                 <button class="welc_butt">Start here</button>
             </div>
@@ -116,7 +115,7 @@
                             </div>
 
 
-    </div><!-- End img transitions-->
+        </div><!-- End img transitions-->
 
 
 
@@ -128,15 +127,15 @@
 
 
         </div>
-    </div>
+        </div>
 
-    <br>
-    <div class="wind_chill">
-        Temperature: &nbsp;<input type="text" id="temperature" size="5" ><br><br>
-        Wind Speed:  &nbsp;<input type="text" id="wind_speed" size="5" ><br><br>
-    <button type="button" onclick="doInputOutput()">Calculate</button> &nbsp;    
-    <span id="output"></span>
-    </div>
+        <br>
+        <div class="wind_chill">
+            Temperature: &nbsp;<input type="text" id="temperature" size="5" ><br><br>
+            Wind Speed:  &nbsp;<input type="text" id="wind_speed" size="5" ><br><br>
+        <button type="button" onclick="doInputOutput()">Calculate</button> &nbsp;    
+        <span id="output"></span>
+        </div>
 
     </main>
 

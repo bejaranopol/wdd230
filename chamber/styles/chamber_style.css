@@ -156,11 +156,19 @@ img {vertical-align: middle;}
         width: 50%; margin: 0 25%; border-radius: 15px;}
 .wind_chill button{text-decoration: underline; border-radius: 5px; border: none; transition: 0.6s;}
 .wind_chill button:hover { background-color:#F4B237; color: #A52A2A; transition: 0.6s; font-size: 108%;}
- 
+
+
+/* DISCOVER PAGE STYLING GENERAL*/
+.lazy_disc1 img:hover{box-shadow: 0 0 100px #333;}
+.lazy_disc2:hover{filter: blur(2px);}
+.lazy_disc3 img:hover{border-radius: 15px 150px;}
+.lazy_disc4:hover{ filter: contrast(70%);}
+.lazy_disc5:hover{opacity: 0.5;}
+#disc_lay1 p{font-family: 'Gadugi','Cambria';}
 
 
 
-/****//*****/
+/****/ /****screen size**************************************************************!!!!!!!!!!!!!!!!*/
 
 /*LARGE SIZE*/  @media (min-width: 60.1em){
     #content{  max-width: 1600px; margin: 0 auto;}
@@ -200,6 +208,17 @@ img {vertical-align: middle;}
 
     .slideshow-container {width: 45rem; position: relative; margin: auto; }
     #banner1, #banner2{margin: 1%   25% ; width: 50%;}
+
+    /* DISCOVER PAGE - MAIN*/
+
+    #disc_lay1{display: grid; grid-template-columns: 1.7fr 1fr; text-align: center}
+    #disc_lay1 img{width: 70%; margin: 2%;  border: 5px solid rgba(165,42,42,1);}
+
+    #disc_lay1 span{padding-top: 2%; padding-bottom: 10%; }
+    .sp1{grid-row:1/2;} .lazy_disc1{grid-row:1/2;} 
+    .sp2{grid-row:2/3;} .lazy_disc2{grid-row:2/3;}
+    .sp3{grid-row:3/5; margin-top: 25%;} .lazy_disc3{grid-row:3/4;} .lazy_disc4{grid-row:4/5;}
+    .sp4{grid-row:5/6;} .lazy_disc5{grid-row:5/6;}
 
     }/* End of Large Size*/
 
@@ -270,6 +289,21 @@ img {vertical-align: middle;}
 
         .slideshow-container {width: 100%; position: relative; margin: auto; }
         #banner1, #banner2{margin: 0 ; width: 100%;}
+
+    /* DISCOVER LAYOUT*/
+        #disc_lay1{display: grid; grid-template-columns: 1fr; margin: 2% 2%;}
+        #disc_lay1 img{width: 60%; }
+        #disc_lay1 span{padding: 1.8%; }
+        .lazy_disc1 img, .lazy_disc2 img, .lazy_disc3 img, .lazy_disc5 img{
+                        border: 5px solid rgba(165,42,42,1);}
+        .sp1{grid-row: 1/2;} .lazy_disc1{grid-row: 2/3; text-align: center;}
+        .sp2{grid-row: 3/4;} .lazy_disc2{grid-row: 4/5; text-align: center;}
+        .sp3{grid-row: 5/6;} 
+                .lazy_disc3{grid-row: 6/7; width: 65%;
+                    margin-left: 2%;} 
+                .lazy_disc4{grid-row: 7/8; width: 72%; }
+                .lazy_disc4 img{margin-left:1%;margin-top: -52%; margin-right: none; padding-left: 65%; } 
+        .sp4{grid-row: 8/9;} .lazy_disc5{grid-row: 9/10; text-align: center;}
 
     }/*End of Medium Size*/
 
