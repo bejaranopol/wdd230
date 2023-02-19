@@ -194,7 +194,7 @@ img {vertical-align: middle;}
 /****/ /****screen size**************************************************************!!!!!!!!!!!!!!!!*/
 
 /*LARGE SIZE*/  @media (min-width: 60.1em){
-    #content{  max-width: 1600px; margin: 0 auto;}
+    #content{  max-width: 1600px; margin: 0 auto; }
         header {display: grid; align-items: center;}
         .navigation_page{ display: flex;}
         .navigation_page a:hover, .navigation_page a:active {
