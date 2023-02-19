@@ -164,7 +164,20 @@ img {vertical-align: middle;}
 .lazy_disc3 img:hover{border-radius: 15px 150px;}
 .lazy_disc4:hover{ filter: contrast(70%);}
 .lazy_disc5:hover{opacity: 0.5;}
-#disc_lay1 p{font-family: 'Gadugi','Cambria';}
+#disc_lay1 p{font-family: 'Gadugi','Cambria'; font-size: 1.1rem;}
+
+
+/*  Styling  Visits of Users*/
+.user_visits{ text-align: center;}
+.user_visits p{font-size: 0.9rem;}
+.user_visits button{ background-color: #A52A2A; color: white; border-radius: 5px; transition: 0.6s;font-size: 110%; border: #532605; }
+.user_visits button:hover {background-color: #F4B237;
+                            color: #A52A2A;
+                            font-size: 125%;
+                            transition: 0.6s;
+                            border: none;}
+#discover_visits{ font-size: 120%; color: black; font-weight: 600;}
+.u_v_p{ font-family: 'Calibri';  font-style: italic;}
 
 
 
@@ -301,8 +314,8 @@ img {vertical-align: middle;}
         .sp3{grid-row: 5/6;} 
                 .lazy_disc3{grid-row: 6/7; width: 65%;
                     margin-left: 2%;} 
-                .lazy_disc4{grid-row: 7/8; width: 72%; }
-                .lazy_disc4 img{margin-left:1%;margin-top: -52%; margin-right: none; padding-left: 65%; } 
+                .lazy_disc4{grid-row: 7/8; width: 72%; margin-left: 45%;}
+                .lazy_disc4 img{margin-left:1%;margin-top: -52%; margin-right: none;  } 
         .sp4{grid-row: 8/9;} .lazy_disc5{grid-row: 9/10; text-align: center;}
 
     }/*End of Medium Size*/
