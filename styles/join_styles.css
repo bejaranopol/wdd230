@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Kiwi+Maru&family=Open+Sans&display=swap');
+
+body{ margin: 0 3px;}
+#content{font-family: 'Arial', Tahoma, Verdana; padding: 0; margin: 0;}
+
+    /*   HEADER  START */
+header { 
+    background-color: #A52A2A ;
+    color: white;
+    grid-template-columns: 150px auto;
+    text-align: center;
+    }
+    .date_mod1{ 
+        grid-column: 1/3;
+        display: block;
+        font-size: 0.8rem;}  
+
+    header img {width: 6rem; padding: 2px;}
+ 
+
+.navigation_page li {
+    display: block; 
+    flex: 1 1 auto;}
+
+.navigation_page a {
+    color: white;
+    text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem)}
+
+
+.navigation_page li:first-child {display: none;}
+
+    /* HEADER END */
+
+
+
+    footer {   
+        background-color: brown;
+        color: white;
+        text-align: center;
+        margin-top: 5%;
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    footer img{ width:  4rem; padding: 8px;}
+    footer a{text-decoration: none; color: white;}
+
+/****/ /****screen size**************************************************************!!!!!!!!!!!!!!!!*/
+
+/*LARGE SIZE*/  @media (min-width: 60.1em){
+    #content{  max-width: 1600px; margin: 0 auto; }
+        header {display: grid; align-items: center;}
+        .navigation_page{ display: flex;}
+        .navigation_page a:hover, .navigation_page a:active {
+            color: #F28E02; background-color: #532605; }
+        .name_logo {display: none; color: white;}
+        #logo_taita img {padding-top: 10%; }
+
+    footer { display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 2%; align-items: center; }
+    footer a {text-decoration: none; color: white;}
+    .date_mod2{ grid-column: 1/4; align-items: center;}
+
+
+    }/* End of Large Size*/
+
+
+/****//*****/
+
+
+/*MEDIUM SIZE*/  @media (max-width: 60em){
+    header{
+       /* background-color: green;*/
+        display: block;  }     
+    header #logo_taita { color: white; font-size: 0.9rem; margin-left: 2%;}
+    .name_logo{ color: white; font-size: 120%; margin-left: 2%; }
+    #logo_taita {display: flex; align-items: center;}
+
+    #logo_taita img {width: 5rem; padding: 0.4rem; }
+   
+    nav {margin: 0 auto; width: 100%; }
+    .navigation_page {list-style: none; margin: 0; padding: 0; }
+    .navigation_page li:first-child { display: block;  }
+    .navigation_page li { display: none; }
+    .navigation_page a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        transition: 0.5s;
+        font-size: clamp(1rem, 2vmin, 1.5rem); }
+
+    #menu::before {content: "≡"; font-size: 2rem; }
+    .navigation_page a:hover, .navigation_page a:active {
+            color: #F28E02; background-color: #532605; }
+    .responsive li { display: block; }    
+    .responsive #menu::before {  content: "x";  }
+
+    footer{display:block; text-align: center;}
+    footer img {width: 6rem; float: left; margin-right: 2%; }
+
+
+    }/*End of Medium Size*/
+
+/****//*****/
+
+
+/*SMALL SIZE*/@media (max-width: 34.5em){
+     /*   header{background-color: yellow;}*/
+
+
+    }/*End of Small Size*/
+
+

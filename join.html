@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Taita's Restaurant</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join_styles.css">
+
+
+</head>
+<body> <div id="content">
+    <header>
+        <a style="text-decoration: none;" id="logo_taita" href="chamber/index.html">
+            <img src="chamber/images/taita_img_contwp.webp" alt="Taita's Restaurant">
+            <p  class="name_logo">Taita's Restaurant</p>
+
+        </a>
+        <nav>
+            <ul class="navigation_page">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="chamber/index.html">Home</a></li>
+                <li><a href="chamber/discover.html">Discover</a></li>
+                <li><a href="#">Menus</a> </li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li> 
+        </ul>
+        </nav>
+        <div class="date_mod1">
+            <br>
+            © <span id="c_year"> </span>   
+              Last updated:  <span id="last_modified"></span>
+        </div>
+    </header>
+
+
+
+<br>
+    <main> <div class="principal_grid">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend> Applicant Information</legend>
+                <label> First name*<input type="text" name="first_name" required></label>
+                <label> Last name*<input type="text" name="last_name" required></label>
+                <label> Bussines Position<input type="text" name="bussines_position" pattern="[A-Za-z_\d\-\.\s]{7,}" 
+                    title="Please insert a minimum of seven characters, also use alpha characters, hyphens and spaces.">
+               </label>
+                <label> Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                <label> Cell Phone Number<input type="tel" name="phone" placeholder="+51 xxxxxxxxx" required></label>
+                <label> Bussines Name<input type="text" name="bussines_name" required></label>          
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label>Select your member ship level
+                    <select name="subject">
+                        <option value="">Please Select</option>
+                        <option value="np_membership">NP Membership</option>
+                        <option value="bronze_membershipe">Bronze Membership</option>
+                        <option value="silver_membership">Silver Membership</option>
+                        <option value="gold_membership">Gold Membership</option>                  
+                    </select>
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Describe Your Bussines</legend>
+                <label><input class="descrie_buss" type="text" name="first_name"></label>
+            </fieldset>
+            <br>
+                <input type="hidden" id="user_date_mod" name="date_modified" value="time_date">
+                <input type="submit" value="Submit">
+        </form>
+
+
+    </main>
+
+
+
+    <footer>
+
+        <!-- <img src="chamber/images/taita_img_contwp.webp" alt="Taita's Restaurant">-->
+        <div class="date_mod2">
+            © <span id="c_year1"> </span> 
+            Last updated: <span id="last_modified1"></span>
+        </div>
+    </footer>
+
+</div>
+<script src="chamber/scripts/date_mod.js"></script>
+<script src="chamber/scripts/hamb.js"></script>
+<script src="chamber/scripts/windchill.js"></script>
+</body>
+</html>
