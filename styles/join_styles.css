@@ -60,10 +60,10 @@ form fieldset{
 }
 
 fieldset legend{ font-size: 130%; color: black; padding: 0 0.7%;}
-
+/*        For FIELDSET 1     */
 form fieldset:nth-child(1){display: flex; flex-direction: column; border: 2px solid #A52A2A;}
 fieldset:nth-child(1) legend{margin-bottom: 2%;} 
-fieldset:nth-child(1) label{color: #F28E02;} 
+fieldset:nth-child(1) label{color: #A52A2A;} 
 form fieldset:nth-child(1) input{
                             display: block; margin-bottom: 2%;
                             border: solid 1px; border-radius: 4px;
@@ -72,13 +72,14 @@ form fieldset:nth-child(1) input{
 form fieldset input:required{border-left: solid 5px red; }
 form fieldset input:required:valid {border-left: solid 5px green;}   
 
-
+/*        For FIELDSET 2     */
 fieldset:nth-child(3){border: 2px solid #A52A2A;}
 fieldset:nth-child(3) legend{margin-bottom: 1.1%;} 
-fieldset:nth-child(3) label{color: #F28E02; }
+fieldset:nth-child(3) label{color: #A52A2A; }
 fieldset:nth-child(3) select{display: block; padding: 1%; margin-top: 2%;}
 
 
+/*        For FIELDSET 3     */
 fieldset:nth-child(5){border: 2px solid #A52A2A; }
 fieldset:nth-child(5) legend{margin-bottom: 1.1%;} 
 form fieldset:nth-child(5) input{
