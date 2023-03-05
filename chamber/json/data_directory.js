@@ -1,36 +1,46 @@
-const url =     ;
-async function getProphetData(url) {
-    const response = await fetch(url);
-    const data = await response.json(url);
-    console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
-  }
-  
-  getProphetData(url);
-
-
-
-/* const url = './json/data.json';
+/*const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 async function getProphetData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.business_information);  
+    console.table(data.prophets);  
     // note that we reference the prophet array of the data object given the structure of the json file
     //displayProphets(data.prophets);
     //↑↑ AQUI MOSTRAMOS LA DATA DE LA DATA DEL URL
   }
   
+  getProphetData(url);*/
+
+
+
+
+
+
+  const url = 'https://bejaranopol.github.io/wdd230/chamber/json/data.json';
+async function getProphetData(url) {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.table(data.business_information);    }
+
+
+
+
+  
   getProphetData(url);
 
-  const displayProphets = (prophets) => {
+  const displayProphets = (business_information) => {
     const cards = document.querySelector('div.cards'); // select the output container element
     // ↑↑↑ SALIDA DE LOS ELEMENTOS  AQUI SELECCIONAMOS EL DIV LLAMADO cards ↑↑↑
 
-    prophets.forEach((prophet)=>{
+    business_information.forEach((data)=>{
          // Create elements to add to the div.cards element
         let card = document.createElement('section');
-        let h2 =    document.createElement('h2');
-        let date_birth = document.createElement('p');
-        let place_birth = document.createElement('p');
+        let name =    document.createElement('h2');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let number = document.createElement('p');
+        let website = document.createElement('p');
+        let membership_level = document.createElement('p');
+        let social_media = document.createElement('p');  
         let portrait = document.createElement('img');
 
 
@@ -47,13 +57,17 @@ async function getProphetData(url) {
      portrait.setAttribute('height', '440');
 
     // Append the section(card) with the created elements
-    card.appendChild(h2);
-    card.appendChild(date_birth);
-    card.appendChild(place_birth);
-    card.appendChild(portrait);
+    card.appendChild(name);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(number);
+    card.appendChild(website);
+    card.appendChild(membership_level);
+    card.appendChild(social_media);
     cards.appendChild(card);
+
  
 
          });// AQUI TERMINA EL LOOP  prophets.forEach((prophet)
     }//aqui termina la funcion displayProphets()
-*/
+    
