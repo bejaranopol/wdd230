@@ -16,10 +16,11 @@ async function getProphetData(url) {
 
 
   const url = 'https://bejaranopol.github.io/wdd230/chamber/json/data.json';
-async function getProphetData(url) {
+    async function getProphetData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.business_information);    }
+    console.table(data.business_information); 
+    displayProphets(data.business_information);   }
 
 
 
@@ -34,36 +35,42 @@ async function getProphetData(url) {
     business_information.forEach((data)=>{
          // Create elements to add to the div.cards element
         let card = document.createElement('section');
-        let name =    document.createElement('h2');
-        let address = document.createElement('p');
-        let phone = document.createElement('p');
-        let number = document.createElement('p');
-        let website = document.createElement('p');
-        let membership_level = document.createElement('p');
-        let social_media = document.createElement('p');  
-        let portrait = document.createElement('img');
+        let dname =    document.createElement('h2');
+        let daddress = document.createElement('p');
+        let dphone = document.createElement('p');
+        let dnumber = document.createElement('p');
+        let dwebsite = document.createElement('p');
+        let dmembership_level = document.createElement('p');
+        let dsocial_media = document.createElement('p');  
+        let dportrait = document.createElement('img');
 
 
         // Build the h2 content out to show the prophet's full name - finish the template string
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    date_birth.textContent=`Date of Birth: ${prophet.birthdate}`;
-    place_birth.textContent=`Place of Birth: ${prophet.birthplace}`;
+    dname.textContent = `${data.name}`;
+    daddress.textContent=`Address: ${data.address}`;
+    dphone.textContent=`Phone: ${data.phone}`;
+    dnumber.textContent=`Number: ${data.phone}`;
+    dwebsite.textContent=`Website: ${data.phone}`;
+    dmembership_level.textContent=`Member Ship Level: ${data.phone}`;
+    dsocial_media.textContent=`Social Media: ${data.phone}`;
+
 
      // Build the image portrait by setting all the relevant attribute
-     portrait.setAttribute('src', prophet.imageurl);
-     portrait.setAttribute('alt', `Portait of ${prophet.name}${prophet.lastname}`);
-     portrait.setAttribute('loading', 'lazy');
-     portrait.setAttribute('width', '340');
-     portrait.setAttribute('height', '440');
+     dportrait.setAttribute('src', data.image);
+     dportrait.setAttribute('alt', `Portait of ${data.name}`);
+     dportrait.setAttribute('loading', 'lazy');
+     dportrait.setAttribute('width', '500');
+     dportrait.setAttribute('height', '500');
 
     // Append the section(card) with the created elements
-    card.appendChild(name);
-    card.appendChild(address);
-    card.appendChild(phone);
+    card.appendChild(dname);
+    card.appendChild(daddress);
+    card.appendChild(dphone);
     card.appendChild(number);
-    card.appendChild(website);
-    card.appendChild(membership_level);
-    card.appendChild(social_media);
+    card.appendChild(dwebsite);
+    card.appendChild(dmembership_level);
+    card.appendChild(dsocial_media);
+    card.appendChild(dportrait);
     cards.appendChild(card);
 
  
