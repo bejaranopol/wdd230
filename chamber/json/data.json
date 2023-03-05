@@ -8,6 +8,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Golden",
                 "social_media":"facebook.com",
+                "order": 1,
                 "image":"./img_json/pollos_maria.png"
             },
             {
@@ -18,6 +19,7 @@
                 "website":"",
                 "membership_level":"Bronze",
                 "social_media":"twitter.com",
+                "order": 2,
                 "image":""
             },
             {
@@ -28,6 +30,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Bronze",
                 "social_media":"instagram.com",
+                "order": 2,
                 "image":""
             },
             {
@@ -38,6 +41,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Silver",
                 "social_media":"instagram.com",
+                "order": 4,
                 "image":""
             },
             {
@@ -48,6 +52,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Bronze",
                 "social_media":"facebook.com",
+                "order": 5,
                 "image":""
             },
             {
@@ -58,6 +63,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Bronze",
                 "social_media":"facebook.com",
+                "order": 6,
                 "image":""
             },
             {
@@ -68,6 +74,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Gold",
                 "social_media":"facebook.com",
+                "order": 7,
                 "image":""
             },
             {
@@ -78,6 +85,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Silver",
                 "social_media":"twitter.com",
+                "order": 8,
                 "image":""
             },
             {
@@ -88,6 +96,7 @@
                 "website":"#web_site.com",
                 "membership_level":"Gold+",
                 "social_media":"instagram.com",
+                "order": 9,
                 "image":""
             }
 
