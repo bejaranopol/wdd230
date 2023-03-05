@@ -50,6 +50,65 @@ header {
     footer img{ width:  4rem; padding: 8px;}
     footer a{text-decoration: none; color: white;}
 
+/* STYLING JOIN HTML*/
+form {border: solid 10px rgba(165,42,42); padding: 2%;}
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #532605;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+fieldset legend{ font-size: 130%; color: black; padding: 0 0.7%;}
+
+form fieldset:nth-child(1){display: flex; flex-direction: column; border: 2px solid #A52A2A;}
+fieldset:nth-child(1) legend{margin-bottom: 2%;} 
+fieldset:nth-child(1) label{color: #F28E02;} 
+form fieldset:nth-child(1) input{
+                            display: block; margin-bottom: 2%;
+                            border: solid 1px; border-radius: 4px;
+                            padding: 0.75rem; width: 90%; max-width: 20rem;
+                            margin-bottom:  3%;margin-top: 0.5%; background-color: rgba(0,0,0,0.1); }                                         
+form fieldset input:required{border-left: solid 5px red; }
+form fieldset input:required:valid {border-left: solid 5px green;}   
+
+
+fieldset:nth-child(3){border: 2px solid #A52A2A;}
+fieldset:nth-child(3) legend{margin-bottom: 1.1%;} 
+fieldset:nth-child(3) label{color: #F28E02; }
+fieldset:nth-child(3) select{display: block; padding: 1%; margin-top: 2%;}
+
+
+fieldset:nth-child(5){border: 2px solid #A52A2A; }
+fieldset:nth-child(5) legend{margin-bottom: 1.1%;} 
+form fieldset:nth-child(5) input{
+    display: block;
+    border: solid 1px; border-radius: 4px;
+    padding: 0.75rem;  max-width: 30rem;
+    margin-bottom:  3%;margin-top: 0.5%; background-color: rgba(0,0,0,0.1); }
+    form fieldset:nth-child(5) input[type="text"] { 
+        width: 250px;
+        -webkit-transition: width 2.35s ease-in-out;
+        transition: width 0.85s ease-in-out;
+        font-family: 'Times New Roman';font-size: 110%;}
+      
+    form fieldset:nth-child(5) input[type="text"]:focus {
+        width: 100%;
+        color: #532605;
+        transition: width 2.35s ease-in-out;
+        font-family: 'Calibri';}
+        
+      
+
+
+
+
+
+
+
+
+
+
 /****/ /****screen size**************************************************************!!!!!!!!!!!!!!!!*/
 
 /*LARGE SIZE*/  @media (min-width: 60.1em){
@@ -70,7 +129,7 @@ header {
 
 
 /****//*****/
-
+ 
 
 /*MEDIUM SIZE*/  @media (max-width: 60em){
     header{
