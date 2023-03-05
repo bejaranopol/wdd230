@@ -1,0 +1,95 @@
+    {
+        "business_information":[
+            {
+                "name":"Pollos Maria",
+                "address":"Av. luzuriaga 236",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Golden",
+                "social_media":"facebook.com",
+                "image":"./img_json/pollos_maria.png"
+            },
+            {
+                "name":"Gerardo Verduras",
+                "address":"Av. Raimondi 485",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"",
+                "membership_level":"Bronze",
+                "social_media":"twitter.com",
+                "image":""
+            },
+            {
+                "name":"Granja Tio Sam",
+                "address":"Jr. Ciprano 485",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Bronze",
+                "social_media":"instagram.com",
+                "image":""
+            },
+            {
+                "name":"Pablo's Tours",
+                "address":"Panamericana Sur Km 456",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Silver",
+                "social_media":"instagram.com",
+                "image":""
+            },
+            {
+                "name":"Gobierno Ancash",
+                "address":"Vichay Bajo 4585",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Bronze",
+                "social_media":"facebook.com",
+                "image":""
+            },
+            {
+                "name":"Francisco's Buses",
+                "address":"Av Los Lbertadores 685",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Bronze",
+                "social_media":"facebook.com",
+                "image":""
+            },
+            {
+                "name":"Decoraciones GTW",
+                "address":"Jr Pizarro 1452",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Gold",
+                "social_media":"facebook.com",
+                "image":""
+            },
+            {
+                "name":"Taxis Porvenir",
+                "address":"Av. Javier Prado 4585",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Silver",
+                "social_media":"twitter.com",
+                "image":""
+            },
+            {
+                "name":"Taita's Restaurant",
+                "address":"Plaza de Armas Huaraz",
+                "phone":"+51 946-123-xxx",
+                "number":"(01) 469-XXX",
+                "website":"#web_site.com",
+                "membership_level":"Gold+",
+                "social_media":"instagram.com",
+                "image":""
+            }
+
+        ]
+    }
