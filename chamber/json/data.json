@@ -7,7 +7,7 @@
                 "number":"(01) 469-XXX",
                 "website":"#web_site.com",
                 "membership_level":"Golden",
-                "social_media":"facebook.com",
+                "social_media":"https://www.facebook.com",
                 "order": 1,
                 "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/pollos_maria.png"
             },
@@ -16,7 +16,7 @@
                 "address":"Av. Raimondi 485",
                 "phone":"+51 946-123-xxx",
                 "number":"(01) 469-XXX",
-                "website":"",
+                "website":"#web_site.com",
                 "membership_level":"Bronze",
                 "social_media":"twitter.com",
                 "order": 2,

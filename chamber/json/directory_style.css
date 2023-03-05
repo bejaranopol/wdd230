@@ -1,0 +1,45 @@
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.cards img {
+    width: 50%;
+    /*max-width: 325px;*/
+    height: 100px;
+    box-shadow: 0 0 30px #777;
+    border: 1px solid #333;
+    margin-bottom: 5%;
+  }
+  .directory_menu{
+    margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+  }
+  .directory_menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.directory_list {	display: flex;	flex-direction: column;}
+.directory_list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+.directory_list section > * {	margin: 0 1rem;}
+.directory_list section img {	display: none; /* smaller viewports only */}
+.directory_list section h2 {font-size: 1rem;font-family: Roboto, Helvetica, sans-serif;}
+.directory_list section:nth-child(even) {background-color: #bed;}
+
+section p{ font-size: 0.8rem; }
+section {
+    text-align: center;
+	margin: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

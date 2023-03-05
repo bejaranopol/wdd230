@@ -58,3 +58,26 @@
          });// AQUI TERMINA EL LOOP  prophets.forEach((prophet)
     }//aqui termina la funcion displayProphets()
     
+
+
+    // **********************************CHANGGING BUTTONS FOR DIRECTORY HTML************************
+
+    const gridbutton = document.querySelector("#directory_grid");
+    const listbutton = document.querySelector("#directory_list");
+    const display = document.querySelector(".cards");
+
+    // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+    gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("directory_grid");
+	display.classList.remove("directory_list");
+    });
+
+    listbutton.addEventListener("click", showList); // example using defined function
+
+    function showList() {
+	display.classList.add("directory_list");
+	display.classList.remove("directory_grid");
+    }
+
