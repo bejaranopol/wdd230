@@ -1,34 +1,14 @@
-/*const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-async function getProphetData(url) {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.table(data.prophets);  
-    // note that we reference the prophet array of the data object given the structure of the json file
-    //displayProphets(data.prophets);
-    //↑↑ AQUI MOSTRAMOS LA DATA DE LA DATA DEL URL
-  }
-  
-  getProphetData(url);*/
-
-
-
-
-
-
   const url = 'https://bejaranopol.github.io/wdd230/chamber/json/data.json';
-    async function getProphetData(url) {
+    async function getDirectoryData(url) {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.business_information); 
-    displayProphets(data.business_information);   }
-
-
-
+    displayDirectory(data.business_information);   }
 
   
-  getProphetData(url);
+  getDirectoryData(url);
 
-  const displayProphets = (business_information) => {
+  const displayDirectory = (business_information) => {
     const cards = document.querySelector('div.cards'); // select the output container element
     // ↑↑↑ SALIDA DE LOS ELEMENTOS  AQUI SELECCIONAMOS EL DIV LLAMADO cards ↑↑↑
 

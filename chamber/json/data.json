@@ -9,7 +9,7 @@
                 "membership_level":"Golden",
                 "social_media":"facebook.com",
                 "order": 1,
-                "image":"/img_json/pollos_maria.png"
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/pollos_maria.png"
             },
             {
                 "name":"Gerardo Verduras",
@@ -20,7 +20,7 @@
                 "membership_level":"Bronze",
                 "social_media":"twitter.com",
                 "order": 2,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/gerardo_verduras.png"
             },
             {
                 "name":"Granja Tio Sam",
@@ -31,7 +31,7 @@
                 "membership_level":"Bronze",
                 "social_media":"instagram.com",
                 "order": 2,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/granja_sam.png"
             },
             {
                 "name":"Pablo's Tours",
@@ -42,7 +42,7 @@
                 "membership_level":"Silver",
                 "social_media":"instagram.com",
                 "order": 4,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/pablo_tours.png"
             },
             {
                 "name":"Gobierno Ancash",
@@ -53,7 +53,7 @@
                 "membership_level":"Bronze",
                 "social_media":"facebook.com",
                 "order": 5,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/gobierno_ancash.png"
             },
             {
                 "name":"Francisco's Buses",
@@ -64,7 +64,7 @@
                 "membership_level":"Bronze",
                 "social_media":"facebook.com",
                 "order": 6,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/francisco_buses.png"
             },
             {
                 "name":"Decoraciones GTW",
@@ -75,7 +75,7 @@
                 "membership_level":"Gold",
                 "social_media":"facebook.com",
                 "order": 7,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/gtw_decoraciones.png"
             },
             {
                 "name":"Taxis Porvenir",
@@ -86,7 +86,7 @@
                 "membership_level":"Silver",
                 "social_media":"twitter.com",
                 "order": 8,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/taxi_pro.png"
             },
             {
                 "name":"Taita's Restaurant",
@@ -97,7 +97,7 @@
                 "membership_level":"Gold+",
                 "social_media":"instagram.com",
                 "order": 9,
-                "image":""
+                "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/taita.png"
             }
 
         ]
