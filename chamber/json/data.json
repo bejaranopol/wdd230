@@ -9,7 +9,7 @@
                 "membership_level":"Golden",
                 "social_media":"facebook.com",
                 "order": 1,
-                "image":"./img_json/pollos_maria.png"
+                "image":"/img_json/pollos_maria.png"
             },
             {
                 "name":"Gerardo Verduras",

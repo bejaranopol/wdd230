@@ -49,10 +49,10 @@ async function getProphetData(url) {
     dname.textContent = `${data.name}`;
     daddress.textContent=`Address: ${data.address}`;
     dphone.textContent=`Phone: ${data.phone}`;
-    dnumber.textContent=`Number: ${data.phone}`;
-    dwebsite.textContent=`Website: ${data.phone}`;
-    dmembership_level.textContent=`Member Ship Level: ${data.phone}`;
-    dsocial_media.textContent=`Social Media: ${data.phone}`;
+    dnumber.textContent=`Number: ${data.number}`;
+    dwebsite.textContent=`Website: ${data.website}`;
+    dmembership_level.textContent=`Member Ship Level: ${data.membership_level}`;
+    dsocial_media.textContent=`Social Media: ${data.social_media}`;
 
 
      // Build the image portrait by setting all the relevant attribute
@@ -66,7 +66,7 @@ async function getProphetData(url) {
     card.appendChild(dname);
     card.appendChild(daddress);
     card.appendChild(dphone);
-    card.appendChild(number);
+    card.appendChild(dnumber);
     card.appendChild(dwebsite);
     card.appendChild(dmembership_level);
     card.appendChild(dsocial_media);
