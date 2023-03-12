@@ -82,6 +82,7 @@ fieldset:nth-child(3) select{display: block; padding: 1%; margin-top: 2%;}
 /*        For FIELDSET 3     */
 fieldset:nth-child(5){border: 2px solid #A52A2A; }
 fieldset:nth-child(5) legend{margin-bottom: 1.1%;} 
+fieldset:nth-child(5) label:nth-child(3){display: block; padding-top: 2%; } 
 form fieldset:nth-child(5) input{
     display: block;
     border: solid 1px; border-radius: 4px;
@@ -98,6 +99,11 @@ form fieldset:nth-child(5) input{
         color: #532605;
         transition: width 2.35s ease-in-out;
         font-family: 'Calibri';}
+
+    input:nth-child(8) {font-size: 150%; border-radius: 20px; padding: 0.7% 2%; 
+                        color: white; border: 0px; background-color: #A52A2A;  }
+
+              input:nth-child(8):hover { text-decoration: underline;  }
         
       
 
