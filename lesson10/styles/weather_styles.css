@@ -1,0 +1,6 @@
+.content{max-width: 1600px; margin: 0 auto; }
+
+h1{ background-color:rgba(165,42,42,0.9);  text-align: center; color: white; width: 50%; margin: 0% 25% 0% 25%;
+    border-radius: 20px;}
+.info{display: block; text-align: center; background-color: bisque; width: 50%; margin: 0% 25% 0% 25%;
+    border-radius: 20px; padding: 2% 0%;}
