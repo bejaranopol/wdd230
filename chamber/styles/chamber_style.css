@@ -191,6 +191,16 @@ img {vertical-align: middle;}
 
 
 
+
+/*   CURRENT TEMPERATURE*/
+.weather_huaraz{display: block; background-color: #A52A2A; color: white;width: 50%; border-radius: 20px;
+                 margin: auto; padding: 0.6% 0%;}
+.weather_huaraz h2{ padding-left: 1.2%;}
+.weather_huaraz .in_weath_hz{text-align: center;}
+
+
+
+
 /****/ /****screen size**************************************************************!!!!!!!!!!!!!!!!*/
 
 /*LARGE SIZE*/  @media (min-width: 60.1em){
