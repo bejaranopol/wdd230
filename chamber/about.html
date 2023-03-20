@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="styles/chamber_style.css">
-    <link rel="stylesheet" href="json/directory_style.css">
     <link rel="shortcut icon" href="images/favicon.ico">
-
 </head>
-<body> <div id="content">
+<body>
+<div id="content">
     <div id="banner1">
         <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
         </p>
         <button  onclick="function_delete()">x</button>   
     </div>
-     <!--
+     <!--   WEEK 06 ASSIGNMENT
         <div id="banner2">
         <p>Welcome to Taita's Restaurant <br> Wait until Mondays or Tuesdays to see the banner
              <br><i style="font-size: 85%; font-family: 'Arial';">see coments on java script file: banners.js</i>
@@ -47,31 +46,42 @@
             © <span id="c_year"> </span>   
               Last updated:  <span id="last_modified"></span>
         </div>
-    </header>
+    </header> <br>
 
+    <main>
+        <div class="about_titl">
+        <h1>Contact Us</h1>
+        <h2>We will be pleased to receive your comments</h2></div><br>
+        <div class="about_info">
+            <div><img src="images/smartphone-icon1.png" alt="about icon1"> <div><h3>Phone</h3><p>+51 xxxxxxxxx</p></div> </div>
+            <div><img src="images/email-icon1.png" alt="about icon2"> <div><h3>Email</h3><p>andrepaul2896@gmail.com</p></div></div>
+            <div class="abt_add"><img src="images/address-icon.png" alt="about icon1"> <div></div><h3>Address</h3><a href="https://goo.gl/maps/5mZHsQNcngWzZGSTA" target="_blank">Huaraz City&#128073; </a></div>
+        </div>  
 
+        <div class="about_form">
+            <form class="about_form_s" method="get" action="thankyou2.html">
+                <fieldset class="about_field">
+                    <legend> Write Us</legend>
+                        <h3>We are ready to answer your questions and attend to all the information you need.</h3>
+                    <label> First name*<input type="text" name="first_name" required></label>
+                    <label> Last name*<input type="text" name="last_name" required></label>
+                    <label> Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                    <label>Phone Number<input type="tel" name="phone" placeholder="+51 xxxxxxxxx"></label>
+                    <label>Comments <br><textarea id="text_a_description" name="description" rows="5" cols="36"></textarea></label>         
+                </fieldset>
+                <br>                   
+                    <input class="abt_submit" type="submit" value="Submit">
+            </form>
 
-<br>
-    <main> 
-        <div class="directory_menu">
-            <button id="directory_grid">⏹️Grid</button>
-            <button id="directory_list">📄List</button>
         </div>
-        
-        <div class="div_direct">
-
-
-        <div class="cards"></div>
-    </div>
-
 
     </main>
-    
+
+
     <footer>
 
         <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
         <p> Email: andrepaul2896@gmail.com <br> +51939XXXXXX </p>
-        
         <a href="https://goo.gl/maps/s6JXTVRiyxmKP5QHA" target="_blank">Location Map</a>
 
         <div class="date_mod2">
@@ -80,11 +90,10 @@
         </div>
     </footer>
 
+
 </div>
-<script src="json/data_directory.js"></script>
 <script src="scripts/date_mod.js"></script>
 <script src="scripts/hamb.js"></script>
-<script src="scripts/banners.js"></script>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/banners.js"></script>    
 </body>
 </html>
