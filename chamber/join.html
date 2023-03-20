@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="styles/chamber_style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="content">
+        <div id="banner1">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </p>
+            <button  onclick="function_delete()">x</button>   
+        </div>
+    <header>
+        <a  id="logo_taita" href="index.html">
+            <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
+            <p  class="name_logo">Taita's Restaurant</p>
+
+        </a>
+        <nav>
+            <ul class="navigation_page">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a> </li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">About us</a></li> 
+                <li><a  href="https://facebook.com" target="_blank"> <img class="icon" src="images/facebook.png" alt="facebook"></a></li> 
+                <li><a  href="https://twitter.com" target="_blank"> <img  class="icon" src="images/twitter.png" alt="twitter"></a></li>  
+        </ul>
+        </nav>
+        <div class="date_mod1">
+            <br>
+            © <span id="c_year"> </span>   
+              Last updated:  <span id="last_modified"></span>
+        </div>
+    </header>
+<br>
+    <main>  <div id="join_mainp">
+        <div class="section_form_info">
+            <section>
+                <h3>Non Profit</h3>
+                <h2>FREE</h2> <p>No fee</p>
+                <p>Accumulate points and participate for incredible discounts</p></section>
+
+            <section>
+                <h3>Bronze Membership</h3>
+                <h2>$4.99</h2> <p>per month</p>
+                <p>Get access to areas with incredible views</p></section>
+
+            <section>
+                <h3>Silver Membership</h3>
+                <h2>$19.99</h2> <p>per month</p>
+                <p>Bronze benefits, 25% discount, unlimited drinks </p></section>
+
+            <section>
+                <h3>Gold Membership</h3>
+                <h2>$44.99</h2> <p>One-time payment/06 month</p>
+                <p>Access to vip areas, 01 unlimited buffet per week, all benefits. </p></section>
+        </div>
+
+        <div class="section_form">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend> Applicant Information</legend>
+                <label> First name*<input type="text" name="first_name" required></label>
+                <label> Last name*<input type="text" name="last_name" required></label>
+                <label> Bussines Position Title<input type="text" name="bussines_position" pattern="[A-Za-z_\d\-\.\s]{7,}" 
+                    title="Please insert a minimum of seven characters, also use alpha characters, hyphens and spaces.">
+               </label>
+                <label> Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                <label> Cell Phone Number<input type="tel" name="phone" placeholder="+51 xxxxxxxxx" required></label>
+                <label> Bussines Name<input type="text" name="bussines_name" required></label>          
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label>Select your member ship level
+
+                    <div class="section_form_info2">
+                        <section>
+                            <h3>Non Profit</h3>
+                            <h2>FREE</h2> <p>No fee</p>
+                            <p>Accumulate points and participate for incredible discounts</p></section>
+            
+                        <section>
+                            <h3>Bronze Membership</h3>
+                            <h2>$4.99</h2> <p>per month</p>
+                            <p>Get access to areas with incredible views</p></section>
+            
+                        <section>
+                            <h3>Silver Membership</h3>
+                            <h2>$19.99</h2> <p>per month</p>
+                            <p>Bronze benefits, 25% discount, unlimited drinks </p></section>
+            
+                        <section>
+                            <h3>Gold Membership</h3>
+                            <h2>$44.99</h2> <p>One-time payment/06 month</p>
+                            <p>Access to vip areas, 01 unlimited buffet per week, all benefits. </p></section>
+                    </div>
+
+
+                    <select name="subject">
+                        <option value="">Please Select</option>
+                        <option value="np_membership">NP Membership</option>
+                        <option value="bronze_membershipe">Bronze Membership</option>
+                        <option value="silver_membership">Silver Membership</option>
+                        <option value="gold_membership">Gold Membership</option>                  
+                    </select>
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Describe Your Bussines</legend>
+                <label><textarea id="text_a_description" name="description" rows="5" cols="36"></textarea><br></label>
+                <label>Web Site (if any)</label>
+                <label><input class="descrie_buss" type="text" name="first_name"></label>
+            </fieldset>
+            <br>
+                <input type="hidden" id="user_date_mod" name="date_modified" value="time_date">
+                <input type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+    </main>
+
+
+
+        
+
+    <footer>
+
+        <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
+        <p> Email: andrepaul2896@gmail.com <br> +51939XXXXXX </p>
+        
+        <a href="https://goo.gl/maps/s6JXTVRiyxmKP5QHA" target="_blank">Location Map</a>
+
+        <div class="date_mod2">
+            <p>© <span id="c_year1"> </span> | Taita's Restaurant | Paul Andre A. Bejarano | WDD 230 Project  </p>  
+            Last updated: <span id="last_modified1"></span>
+        </div>
+    </footer>
+
+    </div>
+
+<script src="scripts/date_mod.js"></script>
+<script src="scripts/hamb.js"></script>
+<script src="scripts/banners.js"></script>
+</body>
+</html>
