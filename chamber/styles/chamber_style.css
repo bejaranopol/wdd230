@@ -164,6 +164,10 @@ header {
 
 #disc_lay1 p{font-family: 'Gadugi','Cambria'; font-size: 1.1rem;}
 
+.sp1,.sp2,.sp3,.sp4{transition: 0.6s;}
+.sp3:hover{transform: scale(1.01,1.35); font-weight: 600; transition: 1.2s;}
+.sp1:hover,.sp2:hover,.sp4:hover{font-size: 120%; transition: 0.4s; margin: 1.08rem;}
+
 
 /*  Styling  Visits of Users*/
 .user_visits{ text-align: center;}
@@ -190,12 +194,15 @@ header {
 /* DIRECTORY PAGE*/
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
     .cards section{ 
+        font-size: 85%;
         text-align: center;
         color: white;
         border: 8px solid rgba(0, 0, 0, 0.1); border-radius: 8px;
         background-color: rgba(165,42,42,0.9);
-        margin: 0.5rem;}
+        margin: 0.5rem; transition: 0.45s;}
         .cards p{font-size: 0.8rem; }
+        .cards section:hover{transform: scale(1.07 , 1.07);
+                font-size: 95%; transition: 0.4s; margin: 0.8rem;}
     .cards img { 
         width: 40%;
         /*max-width: 325px;*/
@@ -219,11 +226,12 @@ header {
     .directory_list section {
         color: white;
         margin: 0;
-        padding: 0.25rem;
+        padding: 0.25rem; 
     }
 
     .directory_list section > * {	margin: 0 1rem;}
-    .directory_list section {	margin: 0 1rem; background-color: rgba(83,38,5,0.9)}
+    .directory_list section {	margin: 0 1.1rem; background-color: rgba(83,38,5,0.9); margin-bottom: 0.3%; transition: 0.4s;}
+    
     .directory_list section img {	display: none; /* smaller viewports only */}
     .directory_list section h2 {font-size: 1rem;font-family: Roboto, Helvetica, sans-serif;}
     .directory_list section:nth-child(even) {background-color: rgba(165,42,42,0.9)}
@@ -297,7 +305,9 @@ form fieldset:nth-child(5) input{
 
                   /* Styling About page*/
     .about_titl{text-align: center; font-size: 94%;}
-    .about_info{display: flex;justify-content: center;text-align: center; }
+    .about_info{display: flex;justify-content: center;text-align: center;}
+    .about_info div{ transition: 0.61s; }
+    .about_info div:hover{ transform: scale(1.11,1.11); transition: 0.55s;}
     .about_info a{ color: black;}
    
     .about_form_s{border: none; padding: 2%;}
@@ -369,6 +379,7 @@ form fieldset:nth-child(5) input{
     .directory_list section {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;}
+            .directory_list section:hover{transform: scale(1 , 1.3); transition: 0.4s; font-size: 140%; margin: 1.4rem 1.1rem}
 
     /* JOIN PAGE  STYLING*/
     #join_mainp {display: grid; grid-template-columns: 1.2fr 1fr;  grid-gap: 15px;}
@@ -492,6 +503,7 @@ form fieldset:nth-child(5) input{
 
         /*directory page styling */
         .directory_list {	display: grid; grid-template-columns: 1fr 1fr;}
+        .directory_list section:hover{transform: scale(1 , 1.2); transition: 0.4s; font-size: 120%; margin: 1.4rem 1.1rem}
       /*  join page styling*/
       .section_form_info{display: none;}
       .section_form_info2{  display: grid; grid-template-columns: 1fr 1fr; }
