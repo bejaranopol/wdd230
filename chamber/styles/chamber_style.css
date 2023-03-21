@@ -187,6 +187,53 @@ header {
 .weather_huaraz .in_weath_hz{text-align: center;}
 
 
+/* DIRECTORY PAGE*/
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
+    .cards section{ 
+        text-align: center;
+        color: white;
+        border: 8px solid rgba(0, 0, 0, 0.1); border-radius: 8px;
+        background-color: rgba(165,42,42,0.9);
+        margin: 0.5rem;}
+        .cards p{font-size: 0.8rem; }
+    .cards img { 
+        width: 40%;
+        /*max-width: 325px;*/
+        height: 100px;
+        box-shadow: 0 0 30px #777;
+        border: 1px solid #333;
+        margin-bottom: 5%;
+      }
+      .directory_menu{
+        margin: 1rem auto;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: #bbb;
+        text-align: center;
+      }
+      .directory_menu button {
+        padding: 1rem;
+        font-weight: 700; 
+    }
+
+    .directory_list section {
+        color: white;
+        margin: 0;
+        padding: 0.25rem;
+    }
+
+    .directory_list section > * {	margin: 0 1rem;}
+    .directory_list section {	margin: 0 1rem; background-color: rgba(83,38,5,0.9)}
+    .directory_list section img {	display: none; /* smaller viewports only */}
+    .directory_list section h2 {font-size: 1rem;font-family: Roboto, Helvetica, sans-serif;}
+    .directory_list section:nth-child(even) {background-color: rgba(165,42,42,0.9)}
+    
+
+
+
+
+
+
 /******** STYLING JOIN.HTML  page*/
 form {border: solid 10px rgba(165,42,42); padding: 2%;}
 form fieldset{
@@ -261,6 +308,7 @@ form fieldset:nth-child(5) input{
     .abt_submit:hover { text-decoration: underline;  }
 
 
+
 /****/ /****screen size**************************************************************!!!!!!!!!!!!!!!!*/
 
 /*LARGE SIZE*/  @media (min-width: 60.1em){
@@ -316,7 +364,11 @@ form fieldset:nth-child(5) input{
     .sp3{grid-row:3/5; margin-top: 25%;} .lazy_disc3{grid-row:3/4;} .lazy_disc4{grid-row:4/5;}
     .sp4{grid-row:5/6;} .lazy_disc5{grid-row:5/6;}
 
-
+    /*  DIRECTORY PAGE*/
+    .directory_list {	display: flex;	flex-direction: column;}
+    .directory_list section {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;}
 
     /* JOIN PAGE  STYLING*/
     #join_mainp {display: grid; grid-template-columns: 1.2fr 1fr;  grid-gap: 15px;}
@@ -422,6 +474,7 @@ form fieldset:nth-child(5) input{
         .slideshow-container {width: 100%; position: relative; margin: auto; }
         #banner1, #banner2{margin: 1% 5% 1% 5%; width: 80%;}
 
+
     /* DISCOVER LAYOUT*/
         #disc_lay1{display: grid; grid-template-columns: 1fr; margin: 2% 2%;}
         #disc_lay1 img{width: 60%; }
@@ -437,7 +490,8 @@ form fieldset:nth-child(5) input{
                 .lazy_disc4 img{margin-left:1%;margin-top: -52%; margin-left: 65%;} 
         .sp4{grid-row: 8/9;} .lazy_disc5{grid-row: 9/10; text-align: center;}
 
-
+        /*directory page styling */
+        .directory_list {	display: grid; grid-template-columns: 1fr 1fr;}
       /*  join page styling*/
       .section_form_info{display: none;}
       .section_form_info2{  display: grid; grid-template-columns: 1fr 1fr; }
@@ -501,6 +555,8 @@ form fieldset:nth-child(5) input{
         .about_us{grid-column: 1/2; grid-row: 6/7;}
         .slideshow-container {width: 100%; position: relative; margin: auto; }
 
+            /* directory page styling*/
+            .directory_list {	display: flex;	flex-direction: column;}
               /*  join page styling*/
       .section_form_info{display: none;}
       .section_form_info2{display: flex; flex-direction: column; }
