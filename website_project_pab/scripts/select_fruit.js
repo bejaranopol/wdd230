@@ -1,12 +1,11 @@
-const url="https://brotherblazzard.github.io/canvas-content/fruit.json";
+const url="";
 //const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-
 async function getFruitData(url) {
     const response = await fetch(url);
     const data = await response.json();
    // console.table(data.name);  
    // console.table(data);
-   console.log(jsonData["name"]);
+   console.log(data_fruits.name);
     
 }
 
