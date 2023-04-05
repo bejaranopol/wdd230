@@ -35,8 +35,29 @@
     </header>
         <br>
     <main class="main_fresh">
-        <div class="principal_titl"><p>FRESH</p></div>
-        <br>
+        <div class="principal_titl"><p>FRESH</p></div> <br>
+        <div class="fresh_intro"><h3>Make Your Own Drink!</h3></div>
+        <div class="fresh_form">
+            <form class="about_form_s" method="get" action="">
+                <fieldset class="about_field">
+                        <h3>Fill in each field to make your special drink!</h3>
+                    <label> First name*<input type="text" name="first_name" required></label>
+                    <label> Email*<input type="email" name="email"  required></label>
+                    <label>Phone Number*<input type="tel" name="phone" ></label>
+                    <br>
+                    <label>Choice your fruits</label>
+                   <select name="data_fruit" id="fresh_fruits">
+                        <option value="">Please Select</option>
+                        <option value="data"><span id="data_select_fruit"></span></option>
+                    </select>
+
+                </fieldset>
+                <br> 
+                
+                    <input class="abt_submit" type="submit" value="Submit">
+            </form>
+
+        </div>
     </main>
 
     <div class="index_space1"><br><br></div>    
@@ -72,5 +93,6 @@
 
  <script src="scripts/menu_scroll.js"></script> 
  <script src="scripts/food_date_mod.js"></script> 
+ <script src="scripts/select_fruit.js"></script>
 </body>
 </html>

@@ -143,18 +143,21 @@ header{
         {filter: contrast(67%);  box-shadow: 0 0 20px white; border-radius: 50% 50% }
 
 
-
-
+/* footer*/
+    footer{
+            letter-spacing: 1px; word-spacing: 5px; font-size: 120%;
+            background-color: #4E4E52;
+            color: white;
+            font-family: 'Oswald';    
+    }
+    footer a{  color: white;} .map_icon{width: 20px;}
 /*INDEX END*/
 
-/* footer*/
-footer{
-    letter-spacing: 1px; word-spacing: 5px; font-size: 120%;
-    background-color: #4E4E52;
-    color: white;
-    font-family: 'Oswald';    
-}
-footer a{  color: white;} .map_icon{width: 20px;}
+
+/*FRESH PAGE*/
+.main_fresh{background-color: #36363B; color: white;}
+
+
 
 
 
@@ -353,7 +356,7 @@ align-items: center; justify-self: center; grid-column: 2/4; padding: 1rem;}
     .logo_bf img{width: 25%;}
     .logo_bf p{ font-size: 80%;}
     .nav_menu img{ width: 55%;}
-    .nav_menu a{font-size: 120%;}
+    .nav_menu a{font-size: 140%;}
     .nav_menu{ display: flex;
         margin: 0;  padding: 0;
         opacity: 0;
