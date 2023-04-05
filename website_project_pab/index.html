@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods Home</title>
+    <link rel="stylesheet" href="styles/bf_styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="content">
+    <header>
+        <div class="logo_bf">
+        <a href="index.html">
+            <img src="images/icon.png" alt="Logo Image">
+            <p>Bountiful Foods 'La Colina'</p>
+           
+        </a></div>
+        <nav class="navigation_bar">
+            <div id="menu_toogle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+             </div>
+             <div class="pre_nav">
+            <ul class="nav_menu">
+                <li><a class="link_s" href="index.html">Home</a></li>
+                <li><a class="link_s" href="fresh.html">Fresh</a></li>
+                <li><a class="link_s" href="about.html">About Us</a></li> 
+                <li><a class="link_d" href="https://facebook.com" target="_blank"> <img class="icon" src="images/facebook.png" alt="facebook"></a></li> 
+                <li><a class="link_e" href="https://twitter.com" target="_blank"> <img  class="icon" src="images/twitter.png" alt="twitter"></a></li>
+                <li><a class="link_f" href="https://instagram.com" target="_blank"> <img  class="icon" src="images/instagram.png" alt="instagram"></a></li>   
+        </ul></div>
+        </nav>
+
+    </header>
+    
+<div class="index_space1"><br><br></div>
+    <main class="main_index">
+        <div class="principal_titl"><p>HOME</p> <br> </div>
+        <div class="principal_mess_index"><p>
+            Welcome to the Bountiful Foods 'La Colina', here you will find 
+            fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, and more!<br>
+            Come on, take a look! &#127822;
+        </p></div>
+        <div class="contener_slide">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade"><img src="images/slide1.jpg" alt="1" ></div>
+            <div class="mySlides fade"><img src="images/slide2.jpg" alt="2" ></div>  
+            <div class="mySlides fade"><img src="images/slide3.jpg" alt="3"></div>
+            <div class="mySlides fade"><img src="images/slide4.jpg" alt="4"></div>  
+            <div class="mySlides fade"><img src="images/slide5.jpg" alt="5"></div>  
+            <div class="mySlides fade"><img src="images/slide6.jpg" alt="6"></div>              
+            <div class="mySlides fade"><img src="images/slide7.jpg" alt="7"></div>  
+
+            <a class="prev" onclick="plusSlides(-1)">&#9664;</a>
+            <a class="next" onclick="plusSlides(1)">&#9658;</a>            
+            </div>
+            <br>
+            
+            <div class="slide_dots">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span> 
+              <span class="dot" onclick="currentSlide(7)"></span>  
+            </div>
+        </div>
+
+
+<div class="index_space1"><br> <br><br><br></div>
+        
+            <div class="call_fresh">
+                <div class="call1">
+                <h2>MAKE YOUR OWN MIX</h2>
+                <p>Combine the fruits you want  and make one!</p>
+                <p>100% Natural</p>
+                <span><a class="call1_a" href="fresh.html">See more!</a></span>
+                </div>
+            <div class="call2"><p></p></div>
+            <div class="call3"><img src="images/imagen8.png" alt="fruits call fresh"> </div>
+            </div>
+        
+
+        <div class="index_contactus">
+
+        </div>
+
+        <div class="coastal_area">
+            <div class="coastal_intro">
+            <h2>"Chimbote" - The Coastal Port that Receives International Merchandise Food</h2>
+            <p>
+                Founded around 1774 in the viceroyalty of Peru, Chimbote is the largest fishing port
+                 in the world. Chimbote's active commerce and its 
+                 diversified industrial development are characteristic of the city. Its population includes 
+                 workers who have experience in farming, fishing, naval, canning, and the iron-and-steel industry
+                 with the company SIDERPERU. <br>
+                Chimbote also has beaches that support tourism.
+
+            </p></div>
+
+            <div class="coastal_grid" >
+                <picture><img src="images/placeholder.png" alt="c1" data-src-food="images/ch1.jpg"></picture>
+                <picture><img src="images/placeholder.png" alt="c2" data-src-food="images/ch2.jpg"></picture>
+                <picture><img src="images/placeholder.png" alt="c3" data-src-food="images/ch3.jpg"></picture>
+                <picture><img src="images/placeholder.png" alt="c4" data-src-food="images/ch4.jpg"></picture>
+                <picture><img src="images/placeholder.png" alt="c5" data-src-food="images/ch5.jpg"></picture>
+                <picture><img src="images/placeholder.png" alt="c6" data-src-food="images/ch6.jpg"></picture>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <div class="weather_carlsbald">
+        <h2>WEATHER CARLSBALD</h2>
+        <div class="weather_carlsbald_in">
+            <div class="in_weath_carl1"> 
+            <p>The current temperature in Carlsbald is <span id="current-temp"></span> &deg;F , or <span id="temp_fahrenheit"></span> &deg;Celsius</p>
+            <p>Wind Chill (English units):  <span id="carl_wind_ch"></span> &deg;F</p>
+            <p>Humidity: <span id="carl_humid"></span></p>
+            </div>
+            <div class="in_weath_carl2">
+                <section> <h3>Forecast next 3 days</h3>
+                    <ul>
+                        <li><p>Tomorrow: <span id="forecast1"></span></p></li>
+                        <li><p>In 2 days: <span id="forecast2"></span></p></li>
+                        <li><p>In 3 days: <span id="forecast3"></span></p></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="in_weath_carl3">
+            <h3>Current Condition</h3>
+            <figure><img src="https://openweathermap.org/img/w/04n.png" alt="OpenWeatherMap.org image" id="weather-icon" /><figcaption></figcaption></figure>
+            <p>Weather Information provided by  <br>  OpenWeatherMap.org License </p> </div>
+        </div>   
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="logo_bf">
+                <a href="index.html">
+                <img src="images/icon.png" alt="Logo Image">
+                <p>Bountiful Foods 'La Colina'</p>
+                </a>
+        </div>
+
+        <div class="footer2">
+                <div class="f1">
+                <p> Email: andrepaul2896@gmail.com <br> +51939XXXXXX </p>
+                <a href="https://goo.gl/maps/s6JXTVRiyxmKP5QHA" target="_blank">Location Map <span><img class="map_icon" src="images/address-icon.png" alt="map"></span></a>
+                </div>
+
+                <div class="date_mod">
+                    <p>© <span id="c_year"> </span><br> | Bountiful Foods 'La Colina' |<br> Paul Andre A. Bejarano <br> Bountiful Foods Project  </p>  
+                    Last updated: <span id="last_modified"></span>
+                </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+ <script src="scripts/menu_scroll.js"></script> 
+ <script src="scripts/food_date_mod.js"></script>
+ <script src="scripts/weather_carls.js"></script>
+ <script src="scripts/food_slide.js"></script>
+ <script src="scripts/lazy_load_food.js"></script>
+</body>
+</html>
