@@ -305,6 +305,8 @@ align-items: center; justify-self: center; grid-column: 2/4; padding: 1rem;}
          width: 90%; 
          font-size: 80%;  
          margin: auto auto auto 8%;}
+    .call1 h2{font-size: 210%;}
+    .call1 p{font-size: 120%;}
     .call1 p:nth-child(2){width: 40%;} 
     .call3{grid-column: 1/2;grid-row: 1/2;z-index: 0; width: 90%;margin: auto; }
     .call3 img{width: 100%;}
@@ -369,7 +371,10 @@ align-items: center; justify-self: center; grid-column: 2/4; padding: 1rem;}
 
     .call_fresh{width: 100%; margin: 0%; padding: 0%;}
     .call2{display: none;}
-    .call1 {width: 88%; margin: auto auto auto 2rem; padding: 0; font-size: 50%;}
+    .call1 {width: 92%; margin: auto auto auto 2rem; padding: 0; font-size: 50%;}
+    .call1 h2{font-size: 210%; width: 45%; margin-top: 0.8rem; margin-bottom: 0;}
+    .call1 p{font-size: 120%;}
+    .call1_a {font-size: 90%; padding: 0; margin: 0;}
     .call3 img{width:95% ;margin: 0; padding: 0;}
         /* coastal area*/
     .coastal_intro{width: 90%; font-size: 90%;}
