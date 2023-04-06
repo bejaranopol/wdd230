@@ -218,8 +218,9 @@ header{
 .main_about h1{font-size: 1.7rem; width: 80%; margin: auto; padding-top: 2%;}
 
 
-
-
+.thanks{background-color: #36363B; color: white; font-family: 'Verdana'; margin: 0; width: 100%;text-align: center; align-items: center;}
+.th_1{ width:400px ;height: 900px;place-items: center; margin: 5% 40% 0 35%; }
+.content_fill{background-color: #36363B;}
 
  /************************ Screen Size Styling ****************************/
 /****//*****/
