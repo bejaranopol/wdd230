@@ -33,29 +33,45 @@
         </nav>
 
     </header>
-        <br>
+        
     <main class="main_fresh">
         <div class="principal_titl"><p>FRESH</p></div> <br>
         <div class="fresh_intro"><h3>Make Your Own Drink!</h3></div>
         <div class="fresh_form">
-            <form class="about_form_s" method="get" action="">
-                <fieldset class="about_field">
+            <form class="fresh_form" method="get" action="x">
+                <fieldset class="fresh_field">
                         <h3>Fill in each field to make your special drink!</h3>
-                    <label> First name*<input type="text" name="first_name" required></label>
-                    <label> Email*<input type="email" name="email"  required></label>
-                    <label>Phone Number*<input type="tel" name="phone" ></label>
+                    <label class="freshl1">First name*<input id="first_name" type="text" name="first_name" required ></label>
+                    <label  for="email" class="freshl1">Email*<input id="email" type="email" name="email"  required></label>
+                    <label class="freshl1">Phone Number*<input id="phone" type="tel" name="phone" required></label>
                     <br>
-                    <label>Choice your fruits</label>
-                   <select name="data_fruit" id="fresh_fruits">
-                        <option value="">Please Select</option>
-                        <option value="data"><span id="data_select_fruit"></span></option>
+                    <label class="fresh_intersect">Choice your fruits</label><br>
+                   <select name="data_fruit" class="fresh_fruits" >
+                        <option value="data" class="list_select_fruit">.</option>
                     </select>
-
+                    <select name="data_fruit1" class="fresh_fruits1" >
+                        <option value="data" class="list_select_fruit1">.</option>
+                    </select>
+                    <select name="data_fruit2" class="fresh_fruits2" >
+                        <option value="data" class="list_select_fruit2">.</option>
+                    </select>
+                    <div></div>
+                    
                 </fieldset>
                 <br> 
-                
-                    <input class="abt_submit" type="submit" value="Submit">
+                     <input type="hidden" id="user_date_mod" name="date_modified" value="time_date">
+                     <button class="abt_submit" type="button" onclick="doInputOutput()">Check Your Informartion</button><br> <br>
+                     <div id="output"></div> <br>  
+                      <input type="submit" value="Submit" class="abt_submit1">    
+                     <div class="user_visits">
+                         <p>Date at <span id="user_envio"></span> </p>
+                         <p class="u_v_p">Thanks for your visit!</p>   
+                      </div> 
+
+                                 
             </form>
+
+        
 
         </div>
     </main>

@@ -156,9 +156,27 @@ header{
 
 /*FRESH PAGE*/
 .main_fresh{background-color: #36363B; color: white;}
+.fresh_field h3{font-family: 'Oswald';}
+.freshl1{display: flex; flex-direction: column; margin: 0.8rem auto auto auto; padding-bottom: 0.6rem;}
+.freshl1 input{border-radius: 5px; border: none; padding: 0.4rem 0.5rem;}
+.fresh_fruits,.fresh_fruits1,.fresh_fruits2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Verdana';
+  outline: 0;
+  border: solid #2ecc71 2px;
+  color: black;
+  padding: 4px;
+  border-radius: 9px;
+}
+.fresh_fruits option,.fresh_fruits1 option,.fresh_fruits2 option {transition: 0.3s;}
+.abt_submit,.abt_submit1{margin-left: 1.8%; color: white; background-color: #22827E;border: #22827E 3px;
+            padding: 0.7rem 0.6rem; border-radius: 7px;}
 
-
-
+.user_visits{display:none;}
+.user_visits.aparecer{display:block ; }
+.abt_submit1{text-decoration: underline;}
+.abt_submit1.aparecer{text-decoration: none;}
 
 
  /************************ Screen Size Styling ****************************/
@@ -235,6 +253,17 @@ header{
 .call3{grid-column: 1/5;grid-row: 1/2; z-index: 0;}
 
 
+/* FRESH PAGE*/
+.fresh_form{margin-left: 2%;}
+.fresh_intro h3{font-size: 240%; margin-left: 4.4%; width: 98%; }
+.fresh_field{margin-right: 35%;}
+.fresh_field h3{text-align: start;}
+.freshl1 {width: 94%;}
+.freshl1 input{width: 85%; margin-left: 0.2%;} 
+.fresh_intersect{margin-left: 2.8%;}
+.fresh_fruits, .fresh_fruits1,.fresh_fruits2{margin-left: 2%;}
+.abt_submit,.abt_submit1{font-size: 130%; }
+#output{font-family: 'Verdana'; font-size: 100%;}
 
 /* footer*/
 footer{
@@ -336,7 +365,13 @@ align-items: center; justify-self: center; grid-column: 2/4; padding: 1rem;}
         .in_weath_carl2{border-bottom: solid 2px white; width: 78%; }
         .in_weath_carl2 h3 { text-align: center;}
         .in_weath_carl3{text-align: center; margin: 0.2rem 0; padding: 0.1rem 0;border-bottom: solid 2px white; width: 82%; }
-   
+  /*fresh page*/
+  .fresh_intro{margin-left: 5%; width: 90%;}
+  .fresh_intro h3{width: 80%;}
+  .fresh_field{ width: 90%;}
+  .fresh_form{margin-left: 2%;}
+  .abt_submit,.abt_submit1{font-size: 90%; }
+  #output{font-family: 'Verdana'; font-size: 90%;}
         
 
     /*footer*/
