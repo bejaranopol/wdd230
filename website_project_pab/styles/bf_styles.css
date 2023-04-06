@@ -215,7 +215,7 @@ header{
 .about2 img:nth-child(0){grid-row: 1/2; grid-column: 2/3;z-index: 1;transition: 0.5s;}
 .about2 img{transition: 0.5s; border: #22827E solid 2.4px; border-radius: 15px;}
 .about2 img:hover{transform: scale(1.1,1.1); transition: 0.5s; border-radius: 45% 45% }
-
+.main_about h1{font-size: 1.7rem; width: 80%; margin: auto; padding-top: 2%;}
 
 
 
@@ -440,7 +440,8 @@ align-items: center; justify-self: center; grid-column: 2/4; padding: 1rem;}
 
   .about_field legend{font-size: 160%;}
   .about_field label{display: flex; flex-direction: column; margin: 0.4rem 0.6rem;}
-  .about_field input{padding: 0.6rem; border-radius: 5px; border: none; width: 120%;}
+  .about_field input{padding: 0.6rem; border-radius: 5px; border: none; width: 90%;}
+  #text_a_description{margin-left: 1.5rem;}
 
 
     /*footer*/
@@ -493,6 +494,7 @@ align-items: center; justify-self: center; grid-column: 2/4; padding: 1rem;}
  /* About Page*/
  .about_info img { width: 18%;}
  .about_info {display: block;} .about_info div{font-size: 95%; margin: 0;}
- .about_field {font-size: 85%;}
+
+ .about_field {font-size: 85%; width: 90%; text-align: left; margin: 0;}
     
     }/*End of Small Size*/
